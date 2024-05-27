@@ -42,7 +42,6 @@ export default function NavLinks() {
           >
             <LinkIcon className="w-6" />
             <p className="hidden md:block">{link.name}</p>
-            <p>`current pathname ${pathname}`</p>
           </Link>
         );
       })}
